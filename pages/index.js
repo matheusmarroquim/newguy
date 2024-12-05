@@ -56,4 +56,8 @@ export default function Home() {
 
       {/* Rodapé */}
       <footer style={{ backgroundColor: "#333", color: "white", textAlign: "center", padding: "10px" }}>
-        <p>&copy; 2024 EuroCl
+        <p>&copy; 2024 EuroClean. Todos os direitos reservados.</p>
+      </footer>
+    </div>
+  );
+}
