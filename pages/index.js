@@ -78,17 +78,24 @@ export default function Home() {
   );
 }
 <section style={{
-  backgroundImage: "url('/img/banner.jpg')",
-  height: "400px",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "center",
-  color: "white",
-  textAlign: "center"
-}}>
-  <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>Bem-vindo à EuroClean</h1>
-  <p style={{ fontSize: "1.5rem" }}>Especialistas em limpeza e higienização profissional</p>
+  <section
+  style={{
+    backgroundImage: "url('/img/banner.jpg')",
+    height: "400px",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "white",
+    textAlign: "center",
+  }}
+>
+  <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>
+    Bem-vindo à EuroClean
+  </h1>
+  <p style={{ fontSize: "1.5rem" }}>
+    Especialistas em limpeza e higienização profissional
+  </p>
 </section>
