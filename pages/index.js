@@ -45,7 +45,7 @@ export default function Home() {
       {/* Banner principal */}
       <section
         style={{
-          backgroundImage: "url('/img/banner.jpg')"          ,
+          backgroundImage: "url('/img/banner.jpg')",
           height: "400px",
           backgroundSize: "cover",
           backgroundPosition: "center",
