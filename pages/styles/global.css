@@ -1,5 +1,12 @@
 /* Reseta estilos básicos */
-body, h1, h2, h3, p, ul, li, a {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +20,7 @@ body {
 }
 
 header {
-  background: #4CAF50;
+  background: #4caf50;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -58,7 +65,7 @@ form {
 }
 
 form button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px;

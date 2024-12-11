@@ -24,17 +24,26 @@ export default function Home() {
             }}
           >
             <li>
-              <a href="#about" style={{ color: "white", textDecoration: "none" }}>
+              <a
+                href="#about"
+                style={{ color: "white", textDecoration: "none" }}
+              >
                 Sobre nós
               </a>
             </li>
             <li>
-              <a href="#services" style={{ color: "white", textDecoration: "none" }}>
+              <a
+                href="#services"
+                style={{ color: "white", textDecoration: "none" }}
+              >
                 Serviços
               </a>
             </li>
             <li>
-              <a href="#contact" style={{ color: "white", textDecoration: "none" }}>
+              <a
+                href="#contact"
+                style={{ color: "white", textDecoration: "none" }}
+              >
                 Contato
               </a>
             </li>
@@ -46,14 +55,14 @@ export default function Home() {
       <section
         style={{
           backgroundImage: "url('/img/banner.jpg')",
-          height: "400px",
+          height: "600px",
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          color: "white",
+          color: "black",
           textAlign: "center",
         }}
       >
@@ -61,17 +70,24 @@ export default function Home() {
           Bem-vindo à EuroClean
         </h1>
         <p style={{ fontSize: "1.5rem" }}>
-          Especialistas em limpeza e higienização profissional
+          Especialistas em limpeza e higienização profissional!
         </p>
       </section>
 
       {/* Seção Sobre Nós */}
       <section
         id="about"
-        style={{ padding: "50px", textAlign: "center", backgroundColor: "#f5f5f5" }}
+        style={{
+          padding: "50px",
+          textAlign: "center",
+          backgroundColor: "#f5f5f5",
+        }}
       >
         <h2>Sobre Nós</h2>
-        <p>A EuroClean oferece os melhores serviços de higienização com qualidade e rapidez.</p>
+        <p>
+          A EuroClean oferece os melhores serviços de higienização com qualidade
+          e rapidez.
+        </p>
       </section>
 
       {/* Seção de Serviços */}
@@ -207,4 +223,3 @@ export default function Home() {
     </div>
   );
 }
-
